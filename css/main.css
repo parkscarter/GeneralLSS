@@ -49,6 +49,7 @@ The following css methods(?) serve the menu bar
 }
 
 .navbar {
+  margin-left: 5vw;
   width: 95vw;
   background-color: transparent;
 }

@@ -1,0 +1,62 @@
+.contact-box {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5vw;
+}
+
+.contact-box p {
+  margin-left: 2vw;
+  font-size: 26px;
+  color: #000;
+}
+
+.icon {
+  width: 7vw; 
+  height: 7vw;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.aboutText {
+  min-width: 28vw;
+  font-size: 22px;
+  margin: 2vw;
+}
+
+.image {
+  max-width: 60vw;
+  height: auto;
+  border-radius: 5%;
+}
+
+.mainWindow {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainWindow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon {
+    width: 17vw; 
+    height: 17vw;
+    border-radius: 5%;
+    overflow: hidden;
+  }
+
+  .contact-box p {
+    margin-left: 2vw;
+    font-size: 18px;
+    color: #000;
+  }
+
+  .aboutText {
+    min-width: 30vw;
+    font-size: 14px;
+    margin: 2vw;
+  }
+
+}

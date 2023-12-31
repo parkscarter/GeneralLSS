@@ -1,0 +1,24 @@
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: calc(25% - 10px); /* 25% width for a 4-column layout with 10px gap */
+  height: auto;
+  max-height: calc(25vw - 10px); /* Adjust the max-height as needed */
+  object-fit: cover; /* Crop the photo to maintain aspect ratio */
+  margin: 4px;
+  border-radius: 8px; 
+}
+
+/* Media query for mobile */
+@media screen and (max-width: 600px) {
+  .photo {
+    width: calc(50% - 10px); /* Full width for a single-column layout on mobile */
+    height: calc(50vw - 10px);
+    max-height: none;
+    object-fit: cover; /* Crop the photo to maintain aspect ratio */
+    border-radius: 8px; /* round the corners */
+  }
+}

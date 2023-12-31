@@ -8,20 +8,24 @@
 }
 
 .locs {
-  margin-top: 15vh;
+  min-width: 25vw;
+  min-height: 25vw;
   margin-left: 58vw;
+  margin-top: 5vw;
+  border-radius: 50%;
   background-color: #4caf50;
 }
 
 .heading {
   font-size: 28px;
-  margin: 10px;
+  margin-left:3vw;
+  margin-top: 10vh;
 }
 
 .locations {
   font-size: 22px;
   margin-top: 10px;
-  margin-left: 100px;
+  margin-left: 140px;
 }
 
 .image1 {
@@ -29,7 +33,7 @@
   max-width: 800px; 
   height: auto;
   margin-left: -40vw;
-  margin-top: -40vh;
+  margin-top: -55vh;
   border-radius: 5%;
 }
 
@@ -92,7 +96,7 @@
 .image-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   /*align-items: center;*/
   gap: 2em;
   margin-top: 60vh;
