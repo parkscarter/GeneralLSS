@@ -1,5 +1,7 @@
 
 .image-container {
+  z-index: 1;
+  margin-top: 5vh;
   position: relative;
   width: 100%; 
   height: auto; 

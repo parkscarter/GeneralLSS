@@ -49,12 +49,13 @@ The following css methods(?) serve the menu bar
 }
 
 .navbar {
-  margin-left: 5vw;
-  width: 95vw;
+  width: 100%;
   background-color: transparent;
+  z-index: 2;
 }
 
 .menu {
+  background-color: #4caf50;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -75,7 +76,7 @@ The following css methods(?) serve the menu bar
 }
 
 .menu a:hover {
-  background-color: #ddd;
+  background-color:darkgreen;
   color: black;
 }
 
@@ -89,6 +90,7 @@ The following css methods(?) serve the menu bar
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 3;
 }
 
 .dropdown-content a {
